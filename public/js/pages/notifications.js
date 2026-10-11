@@ -24,7 +24,7 @@
             // Берем свежие данные из БД
             const freshNotifs = await (async () => {
                 const token = getStoredToken();
-                const res = await fetch("https://cifra-tasks.onrender.com/api/api/notifications", {
+                const res = await fetch("https://cifra-tasks.onrender.com/api/notifications", {
                     headers: { "Authorization": `Bearer ${token}` }
                 });
                 if (res.ok) return await res.json();

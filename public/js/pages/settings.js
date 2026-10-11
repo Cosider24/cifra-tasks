@@ -108,7 +108,7 @@
 
                     try {
                         const token = getStoredToken();
-                        const response = await fetch("https://cifra-tasks.onrender.com/api/api/auth/register", {
+                        const response = await fetch("https://cifra-tasks.onrender.com/api/auth/register", {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json",

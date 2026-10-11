@@ -1,7 +1,7 @@
 // js/auth.js
 const AUTH_TOKEN_KEY = "cifra_soft_token";
 const AUTH_USER_KEY = "cifra_soft_user";
-const AUTH_API_URL = "https://cifra-tasks.onrender.com/api/api";
+const AUTH_API_URL = "https://cifra-tasks.onrender.com/api";
 
 function getStoredToken() {
     // Сначала проверяем localStorage
