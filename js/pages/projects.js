@@ -21,7 +21,7 @@
             // Получаем проекты в зависимости от режима
             let projects;
             if (showArchived) {
-                const archivedRes = await fetch("https://cifra-api.onrender.com/api/projects/archived", {
+                const archivedRes = await fetch("https://cifra-tasks.onrender.com/api/api/projects/archived", {
                     headers: { "Authorization": `Bearer ${getStoredToken()}` }
                 });
                 if (archivedRes.ok) {

@@ -15,7 +15,7 @@
         
         async function loadArchivedProjects() {
             try {
-                const res = await fetch("https://cifra-api.onrender.com/api/projects/archived", {
+                const res = await fetch("https://cifra-tasks.onrender.com/api/api/projects/archived", {
                     headers: { "Authorization": `Bearer ${getStoredToken()}` }
                 });
                 if (res.ok) {
