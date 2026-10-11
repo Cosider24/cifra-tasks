@@ -21,7 +21,7 @@
             // Получаем проекты в зависимости от режима
             let projects;
             if (showArchived) {
-                const archivedRes = await fetch("http://127.0.0.1:5000/api/projects/archived", {
+                const archivedRes = await fetch("https://cifra-api.onrender.com/api/projects/archived", {
                     headers: { "Authorization": `Bearer ${getStoredToken()}` }
                 });
                 if (archivedRes.ok) {

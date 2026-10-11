@@ -1,5 +1,5 @@
 // js/api.js
-const API_URL = "http://127.0.0.1:5000/api";
+const API_URL = "https://cifra-api.onrender.com/api";
 const TOKEN_KEY = "cifra_soft_token";
 const USER_KEY = "cifra_soft_user";
 
